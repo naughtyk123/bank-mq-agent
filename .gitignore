@@ -1,0 +1,24 @@
+# Maven
+target/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Spring Boot
+*.jar
+!wrapper/*.jar
+
+# Secrets (never commit these)
+.env
+*.pem
+*.jks
+*.p12
+
+# OS
+.DS_Store
+Thumbs.db
